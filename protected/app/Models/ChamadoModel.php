@@ -2,20 +2,33 @@
 
 class ChamadoModel
 {
-    public function findAll()
+    public function findAll($app)
     {
-        return array(
-            "nome" => "joao",
-            "email" => "email joao",
-            "endereco" => "endereco joao",
-            "numero" => "numero joao"
+        /* Busca todos os chamados */
+       //return $app['db']->fetchAll('SELECT * FROM chamados_sac LIMIT 5');
+        $qb = $app['db']->createQueryBuilder();
 
-        );
+        $qb
+        ->select('contrato')
+        ->from('chamados_sac');
+
+        return $qb;
     }
 
-    public function find($id)
+    public function find($id, $app)
     {
-        return $id;
+        /* Busca chamados com parametro */
+        return $app['db']->fetchAll('SELECT * FROM chamados_sac LIMIT 5');
+    }
+
+    public function findOpen($app)
+    {
+        /* Listar chamados abertos */
+    }
+
+    public function findClose($app)
+    {
+        /* Listar chamados fechados */
     }
 
     public function insert()

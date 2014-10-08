@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611308a1-28ed-4976-a306-b0dc1a30ab2e" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\gmferreir\Desktop\Projetos\apiSigem\habr-article.markdown" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="apiSigem.iws" />
@@ -61,7 +61,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
+            <state line="1" column="5" selection-start="15" selection-end="15" vertical-scroll-proportion="0.030195381" vertical-offset="0" max-vertical-offset="563">
               <folding />
             </state>
           </provider>
@@ -816,11 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="204" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/app/Models/ChamadoModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="19" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="425" />
@@ -843,11 +838,6 @@
         <state line="20" column="17" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="600">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/composer.json">
@@ -920,13 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="127" selection-end="127" vertical-scroll-proportion="0.09058615" vertical-offset="0" max-vertical-offset="563">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="9" selection-start="186" selection-end="186" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="306">
@@ -936,7 +919,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
+        <state line="1" column="5" selection-start="15" selection-end="15" vertical-scroll-proportion="0.030195381" vertical-offset="0" max-vertical-offset="563">
           <folding />
         </state>
       </provider>

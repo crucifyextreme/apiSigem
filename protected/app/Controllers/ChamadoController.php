@@ -19,8 +19,8 @@ class ChamadoController implements ControllerProviderInterface {
         $index->get('/listar', function() use ($app) {
 
             try {
-                $app['models']->load('ChamadoModel', 'findAll');
-                return $app->json($label);
+                $data = $app['models']->load('ChamadoModel', 'findAll', $app);
+                return $app->json($data);
             } catch(\Exception $e) {
                 return $app['erros']::error($app);
             }
@@ -33,8 +33,8 @@ class ChamadoController implements ControllerProviderInterface {
         $index->get('/listar/{id}', function($id) use ($app) {
 
             try {
-                $app['models']->load('ChamadoModel', 'find', $id);
-                return $app->json($label);
+                $data = $app['models']->load('ChamadoModel', 'find', $id);
+                return $app->json($data);
             } catch(\Exception $e) {
                 return $app['erros']::error($app);
             }
@@ -46,7 +46,8 @@ class ChamadoController implements ControllerProviderInterface {
          */
         $index->delete('/delete/{id}', function($id) use ($app) {
             try {
-                $app['models']->load('ChamadoModel', 'delete', $id);
+                $data = $app['models']->load('ChamadoModel', 'delete', $id);
+                return $app->json($data);
             } catch(\Exception $e) {
                 return $app['erros']::error($app);
             }
@@ -72,7 +73,8 @@ class ChamadoController implements ControllerProviderInterface {
             $data = [/**/];
             if(!empty($data)) {
                 try {
-                    return $app['models']->load('ChamadoModel','insert', $data);
+                    $data = $app['models']->load('ChamadoModel','insert', $data);
+                    return $app->json($data);
                 } catch(\Exception $e) {
                     return $app['erros']::error($app);
                 }

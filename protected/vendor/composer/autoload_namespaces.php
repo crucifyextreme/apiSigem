@@ -16,5 +16,7 @@ return array(
     'Providers' => array($baseDir . '/'),
     'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
     'Libraries' => array($baseDir . '/app'),
+    'Doctrine\\DBAL' => array($vendorDir . '/doctrine/dbal/lib'),
+    'Doctrine\\Common' => array($vendorDir . '/doctrine/common/lib'),
     'Controllers' => array($baseDir . '/app'),
 );
