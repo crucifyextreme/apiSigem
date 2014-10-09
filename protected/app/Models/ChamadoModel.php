@@ -7,18 +7,16 @@ class ChamadoModel
         /* Busca todos os chamados */
        //return $app['db']->fetchAll('SELECT * FROM chamados_sac LIMIT 5');
         $qb = $app['db']->createQueryBuilder();
-
-        $qb
-        ->select('contrato')
-        ->from('chamados_sac');
-
-        return $qb;
+        $qb->createQueryBuilder()
+            ->select('*')
+            ->from('chamados_sac')
+            ->execute()
+            ->fetchAll(\PDO::FETCH_COLUMN);
     }
 
     public function find($id, $app)
     {
-        /* Busca chamados com parametro */
-        return $app['db']->fetchAll('SELECT * FROM chamados_sac LIMIT 5');
+
     }
 
     public function findOpen($app)

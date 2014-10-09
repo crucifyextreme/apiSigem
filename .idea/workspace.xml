@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611308a1-28ed-4976-a306-b0dc1a30ab2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/app/Models/LoginModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/app/Models/ChamadoModel.php" afterPath="$PROJECT_DIR$/protected/app/Models/ChamadoModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/autoload.php" afterPath="$PROJECT_DIR$/protected/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/protected/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/bootstrap.php" afterPath="$PROJECT_DIR$/protected/bootstrap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="apiSigem.iws" />
@@ -31,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
+      <file leaf-file-name="ChamadoController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/app/Controllers/ChamadoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="49" selection-start="55" selection-end="55" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="170">
+            <state line="63" column="50" selection-start="1731" selection-end="1810" vertical-scroll-proportion="-8.125" vertical-offset="690" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
@@ -43,43 +47,29 @@
       <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="680">
-              <folding />
+            <state line="7" column="46" selection-start="257" selection-end="257" vertical-scroll-proportion="7.375" vertical-offset="282" max-vertical-offset="870">
+              <folding>
+                <element signature="e#165#210#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/composer.json">
+      <file leaf-file-name="LoginController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/app/Controllers/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="9" selection-start="186" selection-end="186" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="306">
-              <folding />
+            <state line="14" column="38" selection-start="288" selection-end="288" vertical-scroll-proportion="0.31610942" vertical-offset="106" max-vertical-offset="525">
+              <folding>
+                <element signature="e#31#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="LoginModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/app/Models/LoginModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="5" selection-start="15" selection-end="15" vertical-scroll-proportion="0.030195381" vertical-offset="0" max-vertical-offset="563">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelsServiceProvider.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/Providers/ModelsServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="1" selection-start="371" selection-end="371" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="663">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChamadoController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/app/Controllers/ChamadoController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="19" selection-start="1501" selection-end="1504" vertical-scroll-proportion="-11.115385" vertical-offset="612" max-vertical-offset="1496">
+            <state line="4" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -103,7 +93,6 @@
         <option value="$PROJECT_DIR$/protected/app/Models/Chamado.php" />
         <option value="$PROJECT_DIR$/protected/app/Controllers/Chamados.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/protected/app/Models/ChamadoModel.php" />
         <option value="$PROJECT_DIR$/protected/app/CatchError.php" />
         <option value="$PROJECT_DIR$/protected/app/Libraries/CatchError.php" />
         <option value="$PROJECT_DIR$/protected/app/Libraries/ValidaError.php" />
@@ -120,18 +109,20 @@
         <option value="$PROJECT_DIR$/protected/Providers/DoctrineOrmServiceProvider.php" />
         <option value="$PROJECT_DIR$/protected/Providers/DoctrineORMServiceProvider.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/protected/bootstrap.php" />
         <option value="$PROJECT_DIR$/protected/composer.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/protected/app/Models/ChamadoModel.php" />
+        <option value="$PROJECT_DIR$/protected/bootstrap.php" />
+        <option value="$PROJECT_DIR$/protected/app/Controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/protected/app/Models/LoginModel.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1374" />
-    <option name="height" value="732" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -173,7 +164,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="n_apiSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="apiSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="n_apiSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apiSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="n_apiSigem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -183,16 +206,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../novaApi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\gmferreir\Desktop\Projetos\apiSigem\protected\app\Controllers" />
       <recent name="$PROJECT_DIR$/protected/app/Models" />
       <recent name="$PROJECT_DIR$/protected/app/Controllers" />
+      <recent name="C:\Users\gmferreir\Desktop\Projetos\apiSigem\protected\app\Controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gmferreir\Desktop\Projetos\apiSigem\protected\Providers" />
@@ -203,6 +226,150 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.0.104:8080" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="user" />
+                <option name="value" value="guilherme" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="392533" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.0.104:8080" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="nome" />
+                <option name="value" value="guilherme" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://192.168.0.104:8080" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="nome" />
+                <option name="value" value="guilherme" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://192.168.0.104:8080" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="nome" />
+                <option name="value" value="guilherme" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.0.104:8080" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="guilherme" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://10.0.10.14:8081" />
@@ -684,16 +851,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="730" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44299674" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4046875" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32736155" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265625" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2613293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -709,7 +876,7 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -762,9 +929,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/app/Libraries/VerificaErros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="19" column="26" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/Providers/ModelsServiceProvider.php">
@@ -790,9 +955,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/app/Libraries/VerificaErros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="18" column="32" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/Providers/ModelsServiceProvider.php">
@@ -850,77 +1013,80 @@
         <state line="9" column="32" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="510" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/app/Models/ChamadoModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="375" selection-end="375" vertical-scroll-proportion="1.1798108" vertical-offset="0" max-vertical-offset="510" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/app/Models/Pages.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="343" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/76_20140207125019_b889e129946c7f31705e856dba7619f0/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/76_20140207125019_b889e129946c7f31705e856dba7619f0/web/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="3068" vertical-scroll-proportion="32.03846" vertical-offset="867" max-vertical-offset="2142" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/76_20140207125019_b889e129946c7f31705e856dba7619f0/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="218" selection-end="250" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="562" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/app/Libraries/VerificaErros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="565" selection-end="565" vertical-scroll-proportion="0.54626334" vertical-offset="16" max-vertical-offset="578">
+        <state line="19" column="26" selection-start="565" selection-end="565" vertical-scroll-proportion="0.54626334" vertical-offset="16" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="5" selection-start="15" selection-end="15" vertical-scroll-proportion="0.025553662" vertical-offset="0" max-vertical-offset="587">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/Providers/ModelsServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="371" selection-end="371" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/app/Controllers/ChamadoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="19" selection-start="1501" selection-end="1504" vertical-scroll-proportion="-11.115385" vertical-offset="612" max-vertical-offset="1496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="49" selection-start="55" selection-end="55" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="680">
+        <state line="17" column="1" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="186" selection-end="186" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="306">
+        <state line="9" column="9" selection-start="188" selection-end="188" vertical-scroll-proportion="0.22959183" vertical-offset="0" max-vertical-offset="588">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="15" selection-end="15" vertical-scroll-proportion="0.030195381" vertical-offset="0" max-vertical-offset="563">
+        <state line="1" column="49" selection-start="55" selection-end="55" vertical-scroll-proportion="0.025510205" vertical-offset="0" max-vertical-offset="588">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/app/Models/ChamadoModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="-0.051829267" vertical-offset="287" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="46" selection-start="257" selection-end="257" vertical-scroll-proportion="7.375" vertical-offset="282" max-vertical-offset="870">
+          <folding>
+            <element signature="e#165#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/app/Controllers/ChamadoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="50" selection-start="1731" selection-end="1810" vertical-scroll-proportion="-8.125" vertical-offset="690" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/app/Models/LoginModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/app/Controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="38" selection-start="288" selection-end="288" vertical-scroll-proportion="0.31610942" vertical-offset="106" max-vertical-offset="525">
+          <folding>
+            <element signature="e#31#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

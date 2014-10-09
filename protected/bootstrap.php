@@ -5,6 +5,7 @@ if (php_sapi_name() === 'cli-server' && is_file($filename)) {
 }
 
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 require_once __DIR__ . '/../protected/vendor/autoload.php';
 
 $app = new Silex\Application();
@@ -40,10 +41,13 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
         'host'      => 'localhost',
         'dbname'    => 'project_people',
         'user'      => 'root',
-        'password'  => '392533',
+        'password'  => '',
         'charset'   => 'utf8',
         'port'      => 3306
     ),
 ));
+/* Session */
+$app->register(new Silex\Provider\SessionServiceProvider());
 
+$app->mount('/', new Controllers\LoginController());
 $app->mount('/chamados', new Controllers\ChamadoController());
